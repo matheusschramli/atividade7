@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --main-background: #171717;
+    --text-color: #fafafa;
+    --nav-background: #262626;
+}
+
+body {
+    background-color: var(--main-background);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+nav {
+    background-color: var(--nav-background);
+    width: fit-content;
+    padding: 27px;
+    border-radius: 14px;
+}
+
+ul, li {
+    list-style: none;
+}
