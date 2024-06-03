@@ -9,6 +9,7 @@
     --main-background: #171717;
     --text-color: #fafafa;
     --nav-background: #262626;
+    --a-hover: #126779;
 }
 
 body {
@@ -32,4 +33,10 @@ nav {
 
 ul, li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-hover);
+
 }
